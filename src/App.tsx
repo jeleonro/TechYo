@@ -8,14 +8,6 @@ import Trust from './components/sections/Trust';
 import FAQ from './components/sections/FAQ';
 import CTA from './components/sections/CTA';
 
-import { type LucideIcon } from 'lucide-react';
-
-interface ServiceCardProps {
-  icon: LucideIcon;
-  title: string;
-  description: string;
-}
-
 function App() {
   return (
     <div className="min-h-screen bg-white text-gray-900">
