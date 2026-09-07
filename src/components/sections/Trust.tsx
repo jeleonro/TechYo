@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import { ShieldCheck, Clock, DollarSign } from 'lucide-react';
-import { FaReact } from "react-icons/fa";
 
 const guarantees = [
   {

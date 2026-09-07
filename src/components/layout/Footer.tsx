@@ -1,4 +1,4 @@
-import { Mail, MessageCircle } from 'lucide-react';
+import { Mail } from 'lucide-react';
 import { FaWhatsapp } from "react-icons/fa";
 
 function Footer() {
