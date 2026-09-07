@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { ShieldCheck, Clock, DollarSign } from 'lucide-react';
+import { FaReact } from "react-icons/fa";
 
 const guarantees = [
   {
@@ -20,12 +21,9 @@ const guarantees = [
 ];
 
 const techStack = [
-  'React',
-  'TypeScript',
-  'Python',
-  'Supabase',
-  'n8n',
-  'FastAPI',
+  {title:'React', icon:'/iconos/react.png'},
+  {title:'Python', icon:'/iconos/python.png'},
+  {title:'n8n', icon:'/iconos/n8n.png'},
 ];
 
 function Trust() {
@@ -40,10 +38,10 @@ function Trust() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Por qué trabajar conmigo
+            ¿Por qué TechYo?
           </h2>
           <p className="text-gray-600 max-w-xl mx-auto">
-            No prometo magia. Prometo trabajo serio, comunicación honesta y
+            No prometemos magia. Prometemos trabajo serio, comunicación honesta y
             resultados que funcionan.
           </p>
         </motion.div>
@@ -78,15 +76,15 @@ function Trust() {
           className="text-center"
         >
           <p className="text-sm text-gray-500 mb-5 uppercase tracking-wide">
-            Tecnologías que domino
+            Tecnologías que dominamos
           </p>
-          <div className="flex flex-wrap justify-center gap-3">
-            {techStack.map((tech) => (
+          <div className="flex flex-wrap items-center justify-center gap-3">
+            {techStack.map((item) => (
               <span
-                key={tech}
-                className="px-4 py-2 rounded-full bg-white border border-gray-200 text-sm font-medium text-gray-700"
+                className="px-4 py-2 rounded-4xl bg-white border border-gray-200 text-sm font-medium text-gray-700"
               >
-                {tech}
+                <img src={item.icon} alt={item.title} />
+                {item.title}
               </span>
             ))}
           </div>

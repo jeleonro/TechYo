@@ -34,7 +34,7 @@ function Services() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            ¿En qué puedo ayudarte?
+            ¿Cómo podemos ayudarte?
           </h2>
           <p className="text-gray-600 max-w-xl mx-auto">
             Servicios pensados para negocios que quieren crecer sin

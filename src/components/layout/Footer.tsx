@@ -1,4 +1,5 @@
 import { Mail, MessageCircle } from 'lucide-react';
+import { FaWhatsapp } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -25,7 +26,8 @@ function Footer() {
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-sm hover:text-white transition-colors"
           >
-            <MessageCircle size={16} />
+            
+            <FaWhatsapp size={16}/>
             WhatsApp
           </a>
         </div>

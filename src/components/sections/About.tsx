@@ -27,14 +27,10 @@ function About() {
           transition={{ duration: 0.5 }}
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center">
-            Sobre mí
+            Sobre Nosotros
           </h2>
           <p className="text-gray-600 text-lg leading-relaxed text-center max-w-2xl mx-auto mb-12">
-            Somos TechYo, y me dedico a construir soluciones web y
-            automatizaciones para negocios que quieren simplificar su día a
-            día. Estoy empezando este camino como emprendimiento, y eso
-            significa que cada cliente recibe atención cercana y dedicada —
-            no eres un número más en una fila de proyectos.
+            En TechYo nos especializamos en desarrollar soluciones web y automatizaciones para negocios que quieren simplificar su día a día. Como un emprendimiento emergente, nos diferenciamos por ofrecer un trato cercano, personalizado y 100% dedicado a cada proyecto, garantizando que tu empresa reciba la atención directa que necesita para optimizar sus tiempos y escalar sin complicaciones.
           </p>
 
           <div className="grid sm:grid-cols-3 gap-6">
