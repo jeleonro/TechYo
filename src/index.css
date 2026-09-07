@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap');
+
+@theme {
+  --font-orbitron: "Orbitron", sans-serif;
+  --font-rubik: "Rubik Mono One", sans-serif;
+  --font-blackops: "Black Ops One", sans-serif;
+  --font-goldman: "Goldman", sans-serif;
+}
