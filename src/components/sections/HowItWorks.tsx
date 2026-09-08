@@ -57,7 +57,7 @@ function HowItWorks() {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               className="relative"
             >
-              <span className="text-5xl font-bold text-blue-100 mb-4 block">
+              <span className="text-5xl font-bold text-brand-800 mb-4 block">
                 {step.number}
               </span>
               <h3 className="text-lg font-semibold mb-2">{step.title}</h3>

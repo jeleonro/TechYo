@@ -11,7 +11,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
+    <header className="sticky top-0 z-50 bg-brand-50 backdrop-blur-md border-b border-gray-100">
       <div className="max-w-6xl mx-auto px-6 md:px-16 h-16 items-center justify-between flex">
         <a href="#" className="font-extrabold text-4xl font-rubik text-blue-950 flex gap-1.5">
           <img className='w-15' src="/fondo.png" alt="" />

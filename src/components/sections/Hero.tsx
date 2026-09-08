@@ -9,7 +9,7 @@ function Hero() {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="text-sm font-medium text-blue-600 mb-3 uppercase tracking-wide"
+          className="text-xl font-medium text-blue-600 mb-3 uppercase tracking-wide"
         >
           Desarrollo web & automatizaciones
         </motion.p>
@@ -30,8 +30,8 @@ function Hero() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-lg text-gray-600 mb-10 max-w-3xl mx-auto"
         >
-          Diseñamos páginas web claras y funcionales, y automatizo procesos que te
-          hacen perder tiempo. Sin promesas vacías, con comunicación directa
+          Diseñamos páginas web claras y funcionales, y automatizo procesos que
+          te hacen perder tiempo. Sin promesas vacías, con comunicación directa
           desde el primer contacto.
         </motion.p>
 
@@ -43,7 +43,7 @@ function Hero() {
         >
           <a
             href="#cta"
-            className="inline-flex items-center justify-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors"
+            className="inline-flex items-center justify-center gap-2 bg-brand-800 text-white px-6 py-3 rounded-lg font-medium hover:bg-brand-950 transition-colors"
           >
             Agenda una llamada gratuita
             <ArrowRight size={18} />

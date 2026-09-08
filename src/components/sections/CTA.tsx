@@ -3,7 +3,7 @@ import { ArrowRight, Mail } from "lucide-react";
 
 function CTA() {
   return (
-    <section id="cta" className="py-24 px-6 md:px-16 bg-blue-600">
+    <section id="cta" className="py-24 px-6 md:px-16 bg-brand-600">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}

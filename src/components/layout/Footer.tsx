@@ -6,7 +6,9 @@ function Footer() {
     <footer className="bg-gray-900 text-gray-400 py-12 px-6 md:px-16">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
         <div className="text-center md:text-left">
-          <p className="text-white font-bold text-lg mb-1 font-orbitron">TechYo</p>
+          <p className="text-white font-bold text-lg mb-1 flex gap-2 font-orbitron">TechYo 
+            <img className='w-10' src="/fondo.png" alt="" />
+          </p>
           <p className="text-sm">
             Páginas web y automatizaciones para tu negocio.
           </p>

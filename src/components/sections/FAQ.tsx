@@ -26,7 +26,7 @@ const faqs: FAQItem[] = [
   {
     question: '¿Ofreces soporte después de la entrega?',
     answer:
-      'Sí, incluyo un periodo de soporte post-entrega para ajustes y resolución de dudas. Si necesitas mantenimiento continuo, también puedo ofrecerlo aparte.',
+      'Sí, incluimos un periodo de soporte post-entrega para ajustes y resolución de dudas. Si necesitas mantenimiento continuo, también puedo ofrecerlo aparte.',
   },
   {
     question: '¿Trabajas con negocios de cualquier tamaño?',

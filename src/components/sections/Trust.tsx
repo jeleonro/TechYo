@@ -27,7 +27,7 @@ const techStack = [
 
 function Trust() {
   return (
-    <section className="py-24 px-6 md:px-16 bg-gray-50">
+    <section className="py-24 px-6 md:px-16 bg-brand-50">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
